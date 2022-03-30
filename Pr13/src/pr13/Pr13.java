@@ -42,4 +42,16 @@ public static Scanner sc = new Scanner(System.in);
         
     }
     
+    public static boolean encontra(int nu, int[] n){
+        boolean encot = false;
+        for(int i = 0; i <= n.length; i++){
+            if(n[i] == nu){
+                encot = true;
+                break;
+            }
+        }
+        
+        return encot;
+    }
+    
 }
