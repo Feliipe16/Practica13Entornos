@@ -40,8 +40,13 @@ public static Scanner sc = new Scanner(System.in);
         System.out.println("Hola");
         
         
+    }public static int ValidarTm(int n[]){
+        int ta = n.length;
+        return ta;
+
     }
     
+
     public static boolean encontra(int nu, int[] n){
         boolean encot = false;
         for(int i = 0; i <= n.length; i++){
@@ -52,6 +57,7 @@ public static Scanner sc = new Scanner(System.in);
         }
         
         return encot;
-    }
+
     
-}
+    
+}}
