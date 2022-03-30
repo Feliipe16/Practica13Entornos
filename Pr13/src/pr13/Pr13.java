@@ -17,10 +17,22 @@ public static Scanner sc = new Scanner(System.in);
     public static void main(String[] args) {
         int n[] = new int [10];
         int nu = 0;
+        int cont = 0;
+        boolean existe = true;
         
         for (int i = 0; i <= 10; i++){
+            do{
             System.out.println("Introduce un numero");
             nu = sc.nextInt();
+            for(int j = 0; j <= cont; j++){
+                if(n[j] == nu){
+                    existe = true;
+                    break;
+                }
+                existe = false;
+            }
+            }while(existe == true);
+            cont++;
         }
         
         Arrays.sort(n);
