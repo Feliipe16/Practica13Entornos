@@ -42,4 +42,9 @@ public static Scanner sc = new Scanner(System.in);
         
     }
     
+    public static int ValidarTm(int n[]){
+        int ta = n.length;
+        return ta;
+    }
+    
 }
